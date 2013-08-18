@@ -1,2 +1,11 @@
 <h1>Demo#Hello</h1>
 <p>Hello World!</p>
+
+ID: <%= @id %><br />
+Next page: <%= @page + 1 %><br /><br />
+
+<%= link_to("My first link", {:action => 'index'}) %>
+
+<hr />
+
+<%= params.inspect %>
