@@ -38,7 +38,7 @@ class SubjectsController < ApplicationController
 
 	def edit
 		@subject = Subject.find(params[:id])
-		@subject_count = Subject.count + 1
+		@subject_count = Subject.count
 	end
 
 	def update
