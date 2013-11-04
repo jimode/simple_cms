@@ -9,19 +9,37 @@ dark brown:   #332318
 light brown:  #4C2516
 */
 
-html { height: 100%; width: 100%; }
-body { width: 100%; min-width: 980px; height: 100%; margin: 0; padding: 0; 
-  font: 14px Verdana,Lucida,Arial,Helvetica,sans-serif; color: #332318; }
+html { 
+	height: 100%; 
+	width: 100%; 
+}
+
+body { 
+	width: 100%; 
+	min-width: 980px; 
+	height: 100%; 
+	margin: 0; padding: 0; 
+  	font: 14px Verdana,Lucida,Arial,Helvetica,sans-serif; 
+  	color: #332318; 
+  	background-color: #e0cd9d;
+ }
 p, td, ul, ol, li, dl, dt, dd { 
   font-family: Verdana,Lucida,Arial,Helvetica,sans-serif; }
+
 img { border: none; }
-table { border-collapse: collapse; }
+
+table { 
+	border-collapse: collapse;
+}
 table tr th, table tr td { vertical-align: top; text-align: left; 
   padding: 3px; }
+
 a, a:visited { color: #993120; }
+
 a:hover {}
 
 .clear { clear: both; }
+
 .center { text-align: center; }
 
 /* Structure */
